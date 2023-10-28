@@ -4,7 +4,9 @@
   "description": "Discordからエアコンを起動",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node src/main.ts",
+    "start": "node build/main.js",
+    "compile": "tsc -p ."
   },
   "keywords": [],
   "author": "",
